@@ -1,0 +1,49 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+
+# Coveralls
+coverage
+
+# Generated OpenApi docs.
+swagger/gen/
+
+# Benchmarking
+benchmarks/graphs
+
+/public
+/dist
+
+# Ignore built ts files
+dist/**/*
+
+*.zip
+*.txt
+
+#environment files
+/config
+.env
+
+#image files
+*.png
+
+#ebextension files
+#/.ebextensions
